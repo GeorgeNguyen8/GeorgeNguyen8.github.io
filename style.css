@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    font-family: "Nunito", sans-serif;
+    color: white;
+}
+h1, h2 {
+    font-family: "Nunito", serif;
+    color: white;
+}
+#homewallpaper{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    text-align: center;
+    padding:  16px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+#nav li a:hover {
+    color: grey;
+}
+#title {
+    text-decoration: underline;
+}
+#quote {
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+#content {
+    border: white;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+#content p {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content table {
+    margin: auto;
+}
+#content ul, #content ol {
+    width: 17%;
+    margin: auto;
+    text-align: left;
+}
+
+#content img {
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+ #content #slammed {
+    width: 100%;
+    margin: auto;
+}
+#content #slammed img {
+    width: 100%;
+}
+#resume{
+ text-align: center;
+}
+#home{
+    text-align: center;
+}
